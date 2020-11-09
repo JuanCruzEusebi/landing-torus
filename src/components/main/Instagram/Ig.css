@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ig-wrapper {
+  height: 40vh;
+  width: 100vw;  
+  display: flex;
+  
+}
+
+.left-div {
+  display: flex;
+  flex: 4;  
+}
+
+.ig-1 {
+  /* border: solid black; */
+  flex: 1;
+  background-image: url("../Imgs/ig4.jpg");
+  background-size: cover;
+  margin-right: 0.5rem;
+  margin-left: 1rem;
+  
+}
+
+.ig-1:hover {
+  transition: ease-in-out  0.5s;
+  opacity: 0.5;
+}
+.ig-2:hover {
+  transition: ease-in-out  0.5s;
+  opacity: 0.5;
+}
+.ig-3:hover {
+  transition: ease-in-out  0.5s;
+  opacity: 0.5;
+}
+
+.ig-2 {
+  /* border: solid blue; */
+  flex: 1;
+  background-image: url("../Imgs/ig2.jpg");
+  background-size: cover;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+.ig-3 {
+  /* border: solid red; */
+  flex: 1;
+  background-image: url("../Imgs/ig3.jpg");
+  background-size: cover;
+   margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.right-div {
+  /* border: solid green; */
+  flex: 3;
+  background-image: url("../Imgs/ig1.jpg");
+  background-size: cover;
+  background-position: center;  
+   margin-left: 0.5rem; 
+   margin-right: 1rem;
+}
+
+.right-div:hover {
+  transition: ease-in-out 0.5s;
+  opacity: 0.5;
+}
+

@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-div-prod {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 98%;
+  height: 97vh;
+  background-color: whitesmoke;
+  display: flex;
+}
+
+.anillos-div {
+  /* border: solid black; */
+  flex: 1;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../Imgs/anillos.jpg");
+  /* background-image: url("../Imgs/anillos.jpg"); */
+  background-size: cover;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.anillos-div > button {
+  margin-top: 2rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 25px;
+  background: none;
+  border: 1px solid white;
+  color: white;
+  font-size: 1rem;
+}
+
+.anillos-div > h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.container-div {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.pulseras-div {
+  /* border: solid black; */
+  flex: 1;
+  background-color: red;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../Imgs/pulseras.jpg");
+  /* background-image: url("../Imgs/pulseras.jpg"); */
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pulseras-div > button {
+  margin-top: 2rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 25px;
+  background: none;
+  border: 1px solid white;
+  color: white;
+  font-size: 1rem;
+}
+
+.pulseras-div > h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.aros-div {
+  /* border: solid black; */
+  flex: 1;
+  background-color: black;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../Imgs/aros.jpg");
+  /* background-image: url("../Imgs/aros.jpg"); */
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aros-div > button {
+  margin-top: 2rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 25px;
+  background: none;
+  border: 1px solid white;
+  color: white;
+  font-size: 1rem;
+}
+
+.aros-div > h1 {
+  color: white;
+  font-size: 2.5rem;
+}

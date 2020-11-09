@@ -1,0 +1,149 @@
+@media (max-width: 768px) {
+  .anillos-div > h1 {
+    color: white;
+    font-size: 2.5rem;
+  }
+  .pulseras-div > h1 {
+    color: white;
+    font-size: 2.5rem;
+  }
+  .aros-div > h1 {
+    color: white;
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    height: 100vh;
+  }
+
+  .anillos-div {
+    margin: 0px;
+    margin-bottom: 5px;
+  }
+
+  .pulseras-div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+  }
+
+  .aros-div {
+    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-right: 0px;
+  }
+
+  .wrapper {
+    height: 99vh;
+  }
+}
+
+@media (max-width: 320px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    height: 100vh;
+  }
+
+  .anillos-div {
+    margin: 0px;
+    margin-bottom: 5px;
+  }
+
+  .pulseras-div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+  }
+
+  .aros-div {
+    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-right: 0px;
+  }
+
+  .wrapper {
+    height: 99vh;
+  }
+  .anillos-div > h1 {
+    color: white;
+    font-size: 1.5rem;
+  }
+  .pulseras-div > h1 {
+    color: white;
+    font-size: 1.5rem;
+  }
+  .aros-div > h1 {
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  .pulseras-div > button {    
+    font-size: 0.75rem;
+  }
+
+  .aros-div > button {
+    font-size: 0.75rem;
+  }
+  .anillos-div > button {
+    font-size: 0.75rem;
+  }
+}
+@media (max-width: 375px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    height: 100vh;
+  }
+
+  .anillos-div {
+    margin: 0px;
+    margin-bottom: 5px;
+  }
+
+  .pulseras-div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+  }
+
+  .aros-div {
+    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-right: 0px;
+  }
+
+  .wrapper {
+    height: 99vh;
+  }
+  .anillos-div > h1 {
+    color: white;
+    font-size: 1.3rem;
+  }
+  .pulseras-div > h1 {
+    color: white;
+    font-size: 1.3rem;
+  }
+  .aros-div > h1 {
+    color: white;
+    font-size: 1.3rem;
+  }
+
+  .pulseras-div > button {    
+    font-size: 0.75rem;
+  }
+
+  .aros-div > button {
+    font-size: 0.75rem;
+  }
+  .anillos-div > button {
+    font-size: 0.75rem;
+  }
+}
